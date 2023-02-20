@@ -9,31 +9,45 @@ body{
     
 }
 
-#iphone{
+section{
     transform: translate(-50% , -50%);
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
+    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    width: 311px;
+    height: 627px;
 }
 .social-media{    
     position: absolute;
     left: 92%;
     top: 0;
 }
-a{
-    display: block;
+
+img:hover{
+    position: relative;
+    top:-5px;
+    left: -5px;
+    transition: 20s;
+    box-shadow: 3px 4px 14px 0px black;
+    
 }
 .img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin: 10px;
+    
 }
 .tela{
     position: absolute;
-    top: 50.4%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 473px;
+    top: 12.7%;
+    left: 7%;
     width: 267px;
+    height: 471px;
+    
+    
+}
+iframe{
+    border-radius: 3px;
 }
