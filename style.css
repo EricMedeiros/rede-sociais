@@ -26,9 +26,8 @@ section{
 
 img:hover{
     position: relative;
-    top:-5px;
-    left: -5px;
-    transition: all .20s ease-in-out;
+    transform: translate(-5px,-5px);
+    transition: all 0.5s ;
     box-shadow: 3px 4px 14px 0px black;
     border: 1.5px solid white;
     
